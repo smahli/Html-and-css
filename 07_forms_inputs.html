@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Forms and Inputs</title>
+</head>
+<body>
+	<!-- Form is not recommended to write in html it must be written in Server side language-->
+	<form action="process.php"></form>
+	<div>
+		<label for="name">Name</label><br>
+		<input type="text" id="name" placeholder="write your name">
+	</div>
+	<div>
+		<label for="email">Email</label><br>
+		<input type="email" name="email" id="email" placeholder="Enter an email">
+	</div>
+	<div>
+		<label for="message">Message</label><br>
+		<textarea name="message" id="message" id="message" cols="50" rows="5"></textarea>
+	</div>
+	<div>
+		<label for="sex">Sex</label>
+		<select name="sex" id="sex">
+			<option value="Male" selected>Male</option>
+			<option value="Female">Female</option>
+			<option value="Rather Not to say">Rather not to say</option>
+		</select>
+
+
+	</div>
+	<div>
+		<label for="age">Age</label><br>
+		<input type="number" name="age" id="age">
+	</div>
+	<div>
+		<label for="dob">Date of birth</label> <br>
+		<input type="date" name="dob" id="dob">
+	</div>
+	<div>
+		<label for="membership">Membership</label>
+		<input type="radio" name="membership" value="simple" id="membership"> Simple
+		<input type="radio" name="membership" value="super" id="membership" checked>Super
+		<input type="radio" name="membership" value="gold" id="membership">Gold
+	</div>
+	<div>
+		<label for="hobbies">I like..</label>
+		<input type="checkbox" name="hobbies" value="cricket" id="hobbies">Cricket
+		<input type="checkbox" name="hobbies" value="football" id="hobbies">Football
+		<input type="checkbox" name="hobbies" value="table tennis"id="hobbies">Table tennis
+		<input type="checkbox" name="hobbies" value="swimming" id="hobbies">Swimming
+		
+	</div>
+	<input type="submit" name="submit" id="submit">
+
+	<!-- using button tag-->
+	<button type="Reset">Reset</button>
+</body>
+</html>
