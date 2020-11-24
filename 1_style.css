@@ -1,0 +1,29 @@
+/* # tag is used to target id in the html page*/
+h2#blue-heading{
+	color: blue;
+}
+/* . is used to target class in the html page*/
+.green-heading{
+	color: greenyellow;
+}
+
+/* we should name the class or id name conventiently any time things gets change in 
+future */
+.primary-heading{
+	color: hotpink;
+}
+/* Now targeting the divs */ 
+#welcome{
+	background-color: khaki;
+}
+#about{
+	background-color: lightblue;
+}
+#our-products{
+	background-color: lightsalmon;
+}
+#welcome,#about{
+	border: 10px solid #ffcccc;
+	padding: 5px;
+	margin-bottom: 5px;
+}
