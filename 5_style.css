@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+}
+h2{
+	font-size: 24px;
+	color: blue;
+}
+.container{
+	max-width: 1060px;
+	margin: 30px auto;
+}
+#our-company,#more-about-us{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #f3f3f3;
+	margin: 10px;
+	padding-bottom: 15px;
+	border: 2px solid #3f3f3f;
+}
+#contact-us,#our-history{
+	font-family: cursive;
+	background-color: #f3f3f3;
+	margin: 10px;
+	padding-bottom: 15px;
+	border: 2px solid #3f3f3f;
+}
+#our-company p{
+	text-align: center;
+	text-align: justify;
+}
+#contact-us{
+	float: right;
+	width: 30%;
+}
+#more-about-us{
+	float: left;
+	width: 65%;
+}
+.clr{
+	clear: both;
+}
+

@@ -49,5 +49,9 @@ future */
 	border: 3px red solid;
 	background-image: url('./leaf.jpg');
 }
+#welcome,#about,#our-products,#box-1,#box-2,#box-3{
+	padding: 10px 20px;
+	margin: 10px 20px;
+}
 
 
