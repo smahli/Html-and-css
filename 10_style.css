@@ -1,0 +1,51 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: gray;
+	color: white;
+	padding: 100px;
+	text-align: center;
+}
+h1{
+	display: none;
+}
+ @media(max-width:500px){
+	body{
+		background-color: red;
+	}
+	 h1{
+		display: block;
+	}
+
+}
+@media(max-width:760px) and (min-width:501px){
+	body{
+		background: blue;
+	}
+	#tablet h1{
+		display: block;
+	}
+}
+@media(max-width:1200px) and (min-width:761px){
+	body{
+		background: green;
+	}
+	#normal h1{
+		display: block;
+	}
+}
+@media(min-width:1201px){
+	body{
+		background:black;
+	}
+	#widescreen h1{
+		display: block;
+	}
+}
+@media(max-width:500px){
+	body{
+		background: orange;
+	}
+	#landscape h1{
+		display: block;
+	}
+}
