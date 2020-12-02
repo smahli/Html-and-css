@@ -1,0 +1,25 @@
+#container{
+	background: #555;
+	display:flex;
+	justify-content:center;
+	/* MANY MORE OPTION TO GO WITH
+	justify-content:center; 
+	justify-content:flex-start;
+	justify-content:flex-end;
+	justify-content:space-around;
+	justify-content:space-between;
+	justify-content:space-evenly
+	
+	*/
+	height: 600px;
+	align-items: center;
+
+}
+.item{
+	background:#f4f4f4;
+	border: #ccc solid 1px;
+	text-align:center;
+	padding:1rem;
+	margin: 0.5rem;
+	flex-basis: 300px;
+}
